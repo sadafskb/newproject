@@ -1,0 +1,135 @@
+  /* formating of logo on left side of nav bar*/
+.navbar-brand img {
+  max-height: 100px;
+  width: auto;
+  margin-right: 10px;}
+
+
+
+
+ 
+
+  /* footer formatting */
+  footer {
+    
+    background-color: rgb(255, 190, 0);
+    color: white;
+    padding: 10px 0;/* Adjust the padding as desired */
+    font-size: 14px; /* Adjust the font size as desired */
+  display:inline-block ;
+  
+    text-align: center;
+    position: relative;
+    
+    width: 100%;
+  }
+
+  
+
+   /* logo size inside the footer*/
+  .footer-logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  html,
+    body {
+      height: 100%;
+    }
+
+    .content {
+      min-height: 100%;
+      margin-bottom: -60px; /* Adjust the height of the footer here */
+    }
+
+   
+
+
+
+
+ /* Booking form*/
+ div.elem-group {
+  margin: 20px 0;
+}
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+  color: #F0382C;
+}
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #FFA500;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+  color: #FFA500;
+}
+textarea {
+  height: 250px;
+}
+hr {
+  border: 1px dotted #F0382C;
+}
+/* Booking form*/
+button {
+  height: 50px;
+  background-color: #AF0202;
+  color: #FFA500;
+  border: none;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #F0382C;
+
+
+  box-sizing: border-box;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  color: #FFA500;
+  z-index: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+}
+.bottom h3 {
+  font-weight: 300;
+}
+div[class^=slide] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  left: 100vw;
+  transform: scale(0.8);
+  -moz-transform: scale(0.8)}
+
+  /* t&cs*/
+
+  ul{
+    font-family: 'Nanum Gothic';
+    position: absolute;
+    padding: 300px;
+    color: #F0382C;
+  }
